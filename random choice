@@ -1,0 +1,9 @@
+import random
+for i in range(3):
+    a= input("enter a value")
+    n=random.randrange(1,50)
+    if n==a:
+        print("you are winner")
+        break
+    else:
+        print("you are loser")
